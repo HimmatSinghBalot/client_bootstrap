@@ -1,7 +1,5 @@
 # Client Bootstap by Chef-Core
 
-[![Build Status](https://travis-ci.org/chef-cookbooks/chef-client.svg?branch=master)](https://travis-ci.org/chef-cookbooks/chef-client) [![Cookbook Version](https://img.shields.io/cookbook/v/chef-client.svg)](https://supermarket.chef.io/cookbooks/chef-client)
-
 This Cookbook will helps you to Bootstrap new Nodes by recipe.
 
 ## Platforms
@@ -54,7 +52,7 @@ For each Node you want to bootstrap you have to create a DataBag Item
   "environment": "_default",
 }
 ```
-##Execute
+## Execute
 Edit the runlist of your Linux Workstation Node ;) and add the chef_bootstrap cookbook.
 
 The recipe will add a line (bootstraped = true) to the DataBag content after finishing.
