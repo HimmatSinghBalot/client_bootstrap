@@ -31,6 +31,4 @@ when 'redhat', 'centos', 'fedora'
 	 dab_hosts['bootstraped'] = 'true'
 	 dab_hosts.save
 end
-
-
-	 
+end
